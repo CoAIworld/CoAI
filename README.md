@@ -1,7 +1,7 @@
 <h1 align="center">CoAI Platform</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/rEXcoMN.png" width="180" alt="CoAI Logo"/>
+  <img src="https://raw.githubusercontent.com/CoAIworld/CoAI/main/frontend/public/assets/logo-enhanced.svg" width="180" alt="CoAI Logo"/>
 </p>
 
 <div align="center">
