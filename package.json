@@ -1,0 +1,35 @@
+{
+  "name": "coai-platform",
+  "version": "1.0.0",
+  "description": "A decentralized artificial intelligence collaboration platform built on Solana",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test",
+    "test": "npm run test:backend && npm run test:frontend",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoAIworld/CoAI.git"
+  },
+  "author": "CoAI Team",
+  "license": "MIT"
+} 

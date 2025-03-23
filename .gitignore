@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+.DS_Store
+.env
+build/
+dist/
+
+# SSH Keys
+coai_ssh_key
+coai_ssh_key.pub
+*_ssh_key*
